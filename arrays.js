@@ -43,7 +43,12 @@ function removeElementFromEndOfArray(array) {
   return array;
 }
 
-function 
+function removeElementFromBeginningOfArray(array) {
+ array.slice(0, 1);
+ return array;
+  
+}
+}
 
 
 
